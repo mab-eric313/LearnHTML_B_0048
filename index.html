@@ -3,48 +3,92 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<link rel="stylesheet" href="style.css">
 		<title>Document</title>
 	</head>
 
 	<body>
 		<header>
-			<p>This is header</p>
-			<div>
+			<h1>Eric <span class="accent">.</span></h1>
+			<nav>
 				<a href="#about-me">About</a>
 				<a href="#project">Project</a>
 				<a href="#skill">Skill</a>
 				<a href="#contact">Contact</a>
-			</div>
+			</nav>
 		</header>
 
 		<main>
 			<section id="about-me">
-				<h2>About Me</h2>
-				<p>hello <br> my name is joko</p>
-				<p>i am software engineer</p>
-				<p>i am from informatics</p>
-				<img src="LOGO-UISI.png" height="100px" width="100px">
+				<div class="hero-kiri">
+					<h2>About Me</h2>
+					<p>hello <br> my name is Joko</p>
+					<p>i am software engineer</p>
+					<p>i am from informatics</p>
+					<div class="hero-tombol">
+						<button class="btn-primary">Got a project</button>
+						<button class="btn-outline">My resume</button>
+					</div>
+				</div>
+				<div class="hero-kanan">
+					<div class="hero-img-wrapper">
+						<img src="LOGO-UISI.png" height="100px" width="100px">
+					</div>
+				</div>
 			</section>
 
 			<section id="project">
 				<h2>My Project</h2>
 
-				<article>
-					<h3>Company Profile</h3>
-					<img src="LOGO-UISI.png" height="100px" width="100px">
-					<p>This is a website company profile</p>
-					<button>See Project</button>
-				</article>
+				<div class="project-grid">
+					<article>
+						<div class="project-img">
+							<img src="pos.png" height="200px" width="200px">
+						</div>
+						<div class="project-body">
+							<h3>Company Profile</h3>
+							<p>This is a website company profile</p>
+						</div>
+						<button>See Project</button>
+					</article>
 
-				<article>
-					<h3>Inventory</h3>
-					<img src="LOGO-UISI.png" height="100px" width="100px">
-					<p>This is a website inventory</p>
-					<button>See Project</button>
-				</article>
+					<article>
+						<div class="project-img">
+							<img src="pos.png" height="200px" width="200px">
+						</div>
+						<div class="project-body">
+							<h3>Company Profile</h3>
+							<p>This is a website company profile</p>
+						</div>
+						<button>See Project</button>
+					</article>
 
-			<section id="skill">
-				<h3>My Skills</h3>
+					<article>
+						<div class="project-img">
+							<img src="pos.png" height="200px" width="200px">
+						</div>
+						<div class="project-body">
+							<h3>Company Profile</h3>
+							<p>This is a website company profile</p>
+						</div>
+						<button>See Project</button>
+					</article>
+
+					<article>
+						<div class="project-img">
+							<img src="LOGO-UISI.png" height="200px" width="200px">
+						</div>
+						<div class="project-body">
+							<h3>Inventory</h3>
+							<p>This is a website inventory</p>
+						</div>
+						<button>See Project</button>
+					</article>
+				</div>
+			</section>
+
+			<section id="skills">
+				<h2>My Skills</h2>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
@@ -52,14 +96,14 @@
 				</ul>
 			</section>
 
-				<article id="contact">
+				<section id="contact">
 					<h2>Contact</h2>
 					<article>
-						<p>Phone:</p>
-						<p>Email:</p>
-						<p>Instagram:</p>
+						<p>Phone: <a href="tel:+6287830546910">+62 878-3054-6910</a></p>
+						<p>Email: <a href="mailto:kseneric313@gmail.com">kseneric313@gmail.com</a></p>
+						<p>Instagram: <a href="https://www.instagram.com/e_albus313/">e_albus313</a></p>
 					</article>
-					<h3>Send me message</h3>
+					<h2>Send me message</h2>
 					<form action="">
 
 						<div>
@@ -76,7 +120,7 @@
 
 						<button>Submit</button>
 					</form>
-				</article>
+				</section>
 
 			</section>
 		</main>
